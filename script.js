@@ -82,3 +82,12 @@ const squadre =
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
+// Seleziono le proprietà punti e falli
+
+for (let i = 0; i < squadre.length; i++) {
+    squadre[i].punti = randomNumber(1, 100);
+    squadre[i].falli = randomNumber(1, 100);
+}
+
+console.log(squadre);
