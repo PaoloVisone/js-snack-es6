@@ -25,5 +25,14 @@ const bici =
         {
             nome: 'Bianchi',
             peso: 1
-        },
+        }
     ];
+
+// Seleziono l'elemento html
+
+const message = document.getElementById('message')
+
+
+
+
+
