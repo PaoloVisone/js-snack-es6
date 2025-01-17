@@ -1,3 +1,4 @@
+// Snek 1
 // Creo un array di oggetti
 
 const bici =
@@ -43,5 +44,36 @@ console.log(pesoBici);
 // Stampo a schermo
 message.innerHTML = `La bici ${nomeBici} è la più leggera. Il suo peso è di ${pesoBici} kg!`
 
+// Snek 2
 
+// Creo un array di oggetti
+
+const squadre =
+    [
+        {
+            nome: 'Juventus',
+            punti: 0,
+            falli: 0
+        },
+        {
+            nome: 'Inter',
+            punti: 0,
+            falli: 0
+        },
+        {
+            nome: 'Milan',
+            punti: 0,
+            falli: 0
+        },
+        {
+            nome: 'Roma',
+            punti: 0,
+            falli: 0
+        },
+        {
+            nome: 'Napoli',
+            punti: 0,
+            falli: 0
+        }
+    ];
 
