@@ -40,7 +40,8 @@ let nomeBici = bici[5].nome;
 
 console.log(pesoBici);
 
-
+// Stampo a schermo
+message.innerHTML = `La bici ${nomeBici} è la più leggera. Il suo peso è di ${pesoBici} kg!`
 
 
 
